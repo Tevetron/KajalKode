@@ -1,8 +1,7 @@
 module.exports = {
-    name: 'youtube',
-    description: "this is a link command",
+    name: 'help',
+    description: "this is a list command",
     async execute(client, message, args, Discord) {
-        message.channel.send('Available Commands:');
-        message.channel.send('Facebook, Instagram, LinkedIn, Newsletter, Notion, Twitter, Youtube');
+        message.channel.send('Available Commands:\nFacebook, Instagram, LinkedIn, Newsletter, Notion, Twitter, Youtube');
     }
 }

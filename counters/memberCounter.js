@@ -6,5 +6,6 @@ module.exports = async (client) =>{
         const channel = guild.channels.cache.get(config.channelid);
         channel.setName(`Members: ${memberCount.toLocaleString()}`);
         console.log('Updating Member Count');
+        console.log(`Members: ${memberCount.toLocaleString()}`);
     }, 5000);
 }
